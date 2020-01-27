@@ -12,6 +12,10 @@ class Header extends Component {
   this.state = {}
   }
 
+  routing() {
+    this.props.history.push('/faq')
+  }
+
   render() {
     return (
       <React.Fragment>
@@ -48,16 +52,16 @@ class Header extends Component {
                       </Form>
                     </Row>
                   </div>
-                  <Row className="col-md-8 asset1 d-flex justify-content-end">
-                    <Navbar collapseOnSelect expand="lg" className="m-2 justify-content-between"   fixed="top" >
+                  <Row className="col-md-8 asset1 d-flex align-items-baseline justify-content-end">
+                    <Navbar collapseOnSelect expand="lg" className="m-2 justify-content-between" style={{position: 'relative'}}   fixed="top" >
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="text-black"/>
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                       <Nav className="justify-content-end text-white"  activeKey="/home">
                         <Nav.Item >
-                          <Nav.Link className="pr-5 text-white" href="/home">HOME</Nav.Link>
+                          <Nav.Link className="pr-5 text-white" >HOME</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                          <Nav.Link className="pr-5 text-white" eventKey="link-1">FOR RETAILERS</Nav.Link>
+                          <Nav.Link className="pr-5 text-white" href="/faq" eventKey="link-1">FOR RETAILERS</Nav.Link>
                         </Nav.Item>
                          <Nav.Item>
                           <Nav.Link className="pr-5 text-white" eventKey="link-2">OKKJI FAST</Nav.Link>
