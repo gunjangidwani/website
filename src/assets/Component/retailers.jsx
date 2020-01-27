@@ -5,6 +5,8 @@ function Retailers() {
     return (
         <React.Fragment>
             {/* <Header /> */}
+
+            
             FOR RETAILERS
         </React.Fragment>
     )
