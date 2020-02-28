@@ -142,7 +142,7 @@ class Testimonial extends React.Component {
                     </Col>
                 </Row>
                 <Row className="mt-5 text-uppercase" style={{backgroundColor: '#eae7e7',}}>
-                    <Col xs={12}>
+                    <Col md={3} >
                     <h5>MENU </h5>
                     <p className="m-0">about us </p>
                     <p className="m-0">join us a retailer</p>
@@ -150,7 +150,7 @@ class Testimonial extends React.Component {
                     <p className="m-0">team</p>
                     <p className="m-0">refer & earn</p>
                     </Col>
-                    <Col xs={12}>
+                    <Col md={3} >
                     <h5>Help </h5>
                     <p className="m-0">about us </p>
                     <p className="m-0">join us a retailer</p>
@@ -158,7 +158,7 @@ class Testimonial extends React.Component {
                     <p className="m-0">team</p>
                     <p className="m-0">refer & earn</p>
                     </Col>
-                    <Col xs={12}>
+                    <Col md={3} >
                     <h5>categorie </h5>
                     <p className="m-0">about us </p>
                     <p className="m-0">join us a retailer</p>
@@ -166,7 +166,7 @@ class Testimonial extends React.Component {
                     <p className="m-0">team</p>
                     <p className="m-0">refer & earn</p>
                     </Col>
-                    <Col xs={12}>
+                    <Col md={3} >
                     <h5>find us online </h5>
                     <p className="m-0">about us </p>
                     <p className="m-0">join us a retailer</p>
